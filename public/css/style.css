@@ -1,0 +1,40 @@
+h1 {
+    margin-top: 50px; /* Adicione espaço superior para o h1 */
+    text-align: center; /* Centralize o texto */
+    background-color: #353753; /* Cor de fundo do título */
+    color: #050505; /* Cor do texto do título */
+    padding: 60px; /* Espaçamento interno do título */
+    border-radius: 10px; /* Borda arredondada do título */
+} 
+
+body {
+    background-color: #47666b; /* Defina a cor de fundo do body */
+}
+
+#butao-login {
+    background-color: #101010; /* Cor de fundo do botão */
+    border-color: #f8f8f8; /* Cor da borda do botão */
+}
+
+#butao-login:hover {
+    background-color: #54e827; /* Cor de fundo do botão ao passar o mouse */
+    border-color: #03264d; /* Cor da borda do botão ao passar o mouse */
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0dff00; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    text-decoration: none; /* Remover sublinhado do link */
+    border-radius: 5px; /* Cantos arredondados */
+    border: none; /* Remover borda */
+    cursor: pointer; /* Mudar cursor para indicar que é clicável */
+    font-size: 16px; /* Tamanho do texto */
+    font-weight: bold; /* Peso da fonte */
+    transition: background-color 0.3s; /* Transição suave de cor de fundo */
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Mudar cor de fundo ao passar o mouse */
+}
